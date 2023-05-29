@@ -1,10 +1,16 @@
 import React from "react";
 
-type Props = { content: string };
+type Props = { content: string , className: string, onClick?: () => void};
 
-export default function ButtonCustom({ content }: Props) {
+export default function ButtonCustom({ content, className, onClick }: Props) {
   return (
-    <button className="bg-green-500 hover:bg-green-600 transition-base   px-7 py-2 rounded-large text-white font-[Roboto]">
+    <button
+      className={
+        "bg-green-500 hover:bg-green-600 transition-base   rounded-large text-white font-[Roboto] " +
+        className
+      }
+      onClick={onClick}
+    >
       {content}
     </button>
   );

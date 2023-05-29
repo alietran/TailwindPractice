@@ -12,6 +12,7 @@ export default {
       boxShadow: {
         "4xl": "0px 20px 40px rgba(0,0,0,0.1)",
         "5xl": "0px  10px 40px  rgba(0,0,0,0.1)",
+        buttonShadow: "0 4px 4px rgba(0,0,0,0.25)",
       },
       fontFamily: {
         rubik: ["Rubik", "sans-serif"],
@@ -25,7 +26,7 @@ export default {
       colors: {
         primary: "#21B573",
         secondary: "#2F2F2F",
-        sub:"#CDCDCD",
+        sub: "#CDCDCD",
         gray: "#585859",
         graylight: "#6C6B6B",
         orange: "#FD511A",
@@ -42,6 +43,15 @@ export default {
       borderRadius: {
         large: "33px",
       },
+      animation: {
+        swipeRight: "swipeRight 0.4s ease-in-out",
+      },
+      keyframes: (theme) => ({
+        swipeRight: {
+          "0%": { opacity: 0, transform: "translateX(-40%)" },
+          "100%": { opacity: 1, transform: "translateX(0%)" },
+        },
+      }),
     },
   },
 

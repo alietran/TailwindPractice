@@ -20,7 +20,7 @@ export default function Home({}: Props) {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius
               blandit facilisis quam netus.
             </p>
-            <ButtonCustom content="Get Started" />
+            <ButtonCustom className="shadow-buttonShadow px-9 py-3" content="Get Started" />
           </div>
           <div className="max-w-2xl ">
             <img src="../src/assets/present.png" alt="" />
@@ -86,7 +86,7 @@ export default function Home({}: Props) {
               Modern Psychology
             </h3>
             <p className="text-gray mb-5">Designation</p>
-            <ButtonCustom content="Buy Course" />
+            <ButtonCustom className=" py-2 px-7" content="Buy Course" />
             <div className="flex justify-between mt-8 font-medium text-gray">
               <p className="flex">
                 <img
@@ -119,7 +119,7 @@ export default function Home({}: Props) {
               Modern Psychology
             </h3>
             <p className="text-gray mb-5">Designation</p>
-            <ButtonCustom content="Buy Course" />
+            <ButtonCustom className=" py-2 px-7" content="Buy Course" />
             <div className="flex justify-between mt-8 font-medium text-gray">
               <p className="flex">
                 <img
@@ -151,7 +151,7 @@ export default function Home({}: Props) {
               Modern Psychology
             </h3>
             <p className="text-gray mb-5">Designation</p>
-            <ButtonCustom content="Buy Course" />
+            <ButtonCustom className=" py-2 px-7" content="Buy Course" />
             <div className="flex justify-between mt-8 font-medium text-gray">
               <p className="flex">
                 <img
